@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test1.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <section class="layout">
+        <aside class="left_navbar">
+            <div class="logo">
+                <a href="#"><img src="image/onDark.png" alt="logo"></a>
+            </div>
+            
+            <div class="nav__links">
+                <div class="nav__menu">
+                    <p class="nav__menu_title">Navigation</p>
+                    <ul class="nav__menu__ls">
+                        <li><a class="menu_item" href="#">
+                            <img src="image/dashboard.svg" alt="dashboard-icon">
+                            <span>Dashboard</span>
+                        </a></li>
+                        <li><a class="menu_item" href="#">
+                            <img src="image/products.svg" alt="products-icon">
+                            <span>Products</span>
+                        </a></li>
+                        <li><a class="menu_item" href="#">
+                            <img src="image/contacts.svg" alt="contacts-icon">
+                            <span>Contacts</span>
+                        </a></li>
+                        <li><a class="menu_item" href="#">
+                            <img src="image/customers.svg" alt="customers-icon">
+                            <span class="customers_item">Customers<img src="image/number15.svg" alt="number"></span>
+                        </a></li>
+                        <li><a class="menu_item" href="#">
+                            <img src="image/sales.svg" alt="sales-icon">
+                            <span class="sales_item">Sales<img src="image/number14.svg" alt="number"></span>
+                        </a></li>
+                        <li><a class="menu_item" href="#">
+                            <img src="image/analytics.svg" alt="analytics-icon">
+                            <span>Analytics</span>
+                        </a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__team">
+                    <p class="nav__team_title">Team Members</p>
+                    <ul class="nav__team__ls">
+                        <li><a class="team_member" href="#">
+                            <img src="image/member1.svg" alt="member-image">
+                            <span>Alexandre Paiva</span>
+                        </a></li>
+                        <li><a class="team_member" href="#">
+                            <img src="image/member2.svg" alt="member-image">
+                            <span>Thanawan Chadee</span>
+                        </a></li>
+                        <li><a class="team_member" href="#">
+                            <img src="image/member3.svg" alt="member-image">
+                            <span>Justine Robinson</span>
+                        </a></li>
+                    </ul>
+                    <a class="see_more" href="#"><img src="image/arrow-seeMore.svg"><span>See More</span></a>
+                </div>
+            </div>
+
+            <div class="user__menu">
+                <a class="user__menu_link">
+                    <img src="image/member4.svg">
+                    <span>Henry Richardson</span>
+                </a>
+                <button class="user__menu_action" type="button">
+                    <img src="image/3dots-white.svg">
+                </button>
+            </div>
+
+            
+
+        </aside>
+
+        <div class="right_wrapper">
+
+            <div class="header">
+                <div class="header_container">
+                    <div class ="header__title"><h3>Contacts</h3></div>
+                    <div class="header__ls_btns">
+                        <ul class="bar_list">
+                            <li class="bar_item">
+                                <button type="button" class="btn_search">
+                                    <img src="image/btn-search.svg" alt="icon-search">
+                                </button>
+                            </li>
+                            <li class="bar_item">
+                                <button type="button" class="btn_bell">
+                                    <img src="image/btn-bell.svg"  alt="icon-bell">
+                                </button>
+                            </li>
+                            <li class="bar_item">
+                                <button type="button" class="btn_apps">
+                                    <img src="image/btn-apps.svg"  alt="icon-apps">
+                                    <label for="btn-apps">Apps</label>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__btn">
+                        <button type="button" class="btn_bar">
+                            <img src="image/btn-bar.svg"  alt="icon-bar">
+                            <label for="btn-bar">Create new</label>
+                        </button>
+                    </div>
+
+                    
+                    
+                </div>
+                
+                <hr class="header__line">
+            </div>
+            
+            <div class="content">
+                <div class="sorting">
+                    <div class="sorting__tab">
+                        <button class="tablinks">All Contacts</button>
+                        <button class="tablinks">Team mates</button>
+                        <button class="tablinks">Customers</button>
+                    </div>
+                    <div class="sorting__btns">
+                        <div class="sorting_select">
+                            <button class="btn_sort">
+                                <span class="sort-icon"><img src="image/btn-sort.svg"></span>
+                                <span class="sort-label">Sort: A-Z</span>
+                            </button>
+                        </div>
+                        <div class="sorting__actions">
+                            <button class="btn_actions">
+                                <span class="btn_actions_icon"><img src="image/btn-action.svg"></span>
+                                <span class="actions_label">Bulk Action</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table_container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox"></input></th>
+                                <th><button class="table__btn_title">Name <img src="image/table-arrow.svg" alt="arrow-icon"></button></th>
+                                <th><button class="table__btn_title">Email <img src="image/table-arrow.svg" alt="arrow-icon"></button></th>
+                                <th><button class="table__btn_title">Service <img src="image/table-arrow.svg" alt="arrow-icon"></button></th>
+                                <th><button class="table__btn_title">Status <img src="image/table-arrow.svg" alt="arrow-icon"></button></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Darius Cummings</td>
+                                <td>balchen@msn.com</td>
+                                <td>Development</td>
+                                <td>Online</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                </div>
+                <div class="page_counter">
+                    <div class="prev">
+                        <button class="btn_prev"><img src="image/prev-arrow.svg" alt="arrow-icon">Prev</button>
+                    </div>
+                    <p>Page 1 out of 10</p>
+                    <div class="next">
+                        <button class="btn_next">Next<img src="image/next-arrow.svg" alt="arrow-icon"></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="footer__left">
+                        <button class="btn_lang"><img src="image/lang-icon.svg" alt="globe-icon">English</button>
+                        <div class="footer_links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">License</a>
+                            <a href="#">API</a>
+                        </div>
+                    
+                    <div class="footer__right">
+                        <button class="btn_light_mode"><img src="image/light-mode.svg"></button>
+                        <button class="btn_night_mode"><img src="image/night-mode.svg"></button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+    
+</body>
+</html>

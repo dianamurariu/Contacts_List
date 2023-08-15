@@ -1,0 +1,788 @@
+body {
+    font-family:  'Roboto Flex', sans-serif;
+    background-color: #FAF4F0;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+/* ########################### CONTACTS ########################## */
+.layout {
+    display: flex;
+}
+/* ########################## LEFT-SIDE ########################### */
+.left_navbar {
+    width: 20%;
+    position:relative;
+    background-color: #000;
+}
+/* Tablet*/
+@media all and (min-width: 451px) and (max-width: 1024px) {
+    .left_navbar {
+        width: 10%;
+    }
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .left_navbar{
+        display: none;
+    }
+}
+
+/* ########Logo ########*/
+.logo-desktop{
+    position: relative;
+    top:30px;
+    left: 35px;
+    width: 113px;
+    height: 25px;
+}
+.logo-tb {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin : 30px auto;
+}
+.logo-desktop, .logo-tb {
+    display: none;
+}
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    .logo-desktop {
+        display: block;
+    }
+}
+/* Tablet*/
+@media all and (min-width: 451px) and (max-width: 1024px){
+    .logo-tb {
+        display: block;
+    }
+}
+
+/* ######## Side navigation ########*/
+.nav__links{
+    top: 70px;
+    left:0;
+    position: relative;
+}
+/* ######## Menu navigation desktop ######## */
+.nav__menu_title_desktop{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 35px;
+    position: relative;
+}
+.nav__menu_ls_desktop{
+    padding: 0;
+    padding-left: 35px;
+    list-style-type: none;
+}
+.menu_item_desktop {
+    text-decoration: none;
+    display: inline-flex;
+    padding-top: 5px;
+}
+.menu_item_desktop:first-child(){
+    padding-top: 0px;
+}
+.menu_item_desktop span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+.menu_item_desktop img {
+    width: 16px;
+    height: 16px;
+}
+.customers_item_desktop img {
+    background-color: #AE7AFF;;
+    padding: 1px 5px;
+    margin-left: 35px;
+}
+.sales_item_desktop img {
+    background-color: #98E9AB;
+    padding: 1px 5px;
+    margin-left: 71px;
+}
+/* ######## Menu navigation tablet ######## */
+.nav__menu__ls_tb {
+    padding-inline-start: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu_item_tb {
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.menu_item_tb img {
+    width: 16px;
+    height: 16px;
+}
+
+/* ######## Menu navigation mobile ######## */
+.nav__menu_mb{
+    width: 100%;
+    bottom: 0;
+    background-color: #FAF4F0;
+}
+.menu__line_top_mb{
+    border: 1px solid #000000;
+}
+.nav__menu__ls_mb{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+    margin: 25px;
+}
+.menu__line_bottom_mb{
+    width: 140px;
+    height: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    background-color: #000;
+    border-radius: 100px;
+}
+
+/* ######## Navigation menu responsive ######## */
+.nav__menu_desktop, .nav__menu_tb, .nav__menu_mb {
+    display: none;
+}
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    .nav__menu_desktop {
+        display: block;
+    }
+}
+/* Tablet*/
+@media all and (min-width: 451px) and (max-width: 1024px){
+    .nav__menu_tb {
+        display: block;
+    }
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .nav__menu_mb{
+        display: block;
+    }
+}
+
+/* ######## Team navigation desktop ######## */
+.nav__team {
+    margin-top: 30px;
+}
+.nav__team_title{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 35px;
+    position: relative;
+}
+.team_member {
+    text-decoration: none;
+    display: inline-flex;
+    padding-top: 10px;
+}
+.team_member span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.team_member img{
+    width: 22px;
+    height: 22px;
+}
+/* Desktop*/
+@media screen and (min-width: 1025px) {
+    .nav__team__ls {
+        padding: 0;
+        padding-left: 35px;
+    }
+}
+/* Tablet */
+@media all and (min-width: 451px) and (max-width: 1024px){
+    .nav__team__ls {
+        padding: 0;
+        padding-left: 0;
+    }
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .nav__team{
+        display: none;
+    }
+}
+
+/* ######## See more ######## */
+.see_more {
+    padding-left: 35px;
+}
+.see_more span {
+    text-decoration: none;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #FFFFFF; 
+}
+/* Tablet */
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+    .nav__team_title,
+    .nav__team span,
+    .see_more span {
+        display: none;
+    }
+    .see_more,
+    .team_member {
+        padding-inline-start: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        padding-top: 15px;
+    }
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .see_more{
+        display: none;
+    }
+}
+
+/* ######## User navigation ######## */
+.user__menu {
+    position: absolute;
+    left:10px;
+    bottom:20px;
+    display:flex;
+    align-items: center;
+}
+.user__menu_link span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.user__menu_action {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+/* Desktop */
+@media screen and (min-width: 1025px){
+    .user__menu_link{
+        padding :8px 0px 8px 25px;
+        display: inline-flex;
+    }
+}
+/*- Tablet */
+@media screen and (min-width: 451px) and (max-width: 1024px){
+    .user__menu_link span,
+    .user__menu_action {
+        display: none;
+    }
+    .user__menu_link {
+        padding-inline-start: 0;
+        margin: 10px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .user__menu{
+        right: 10px;
+        justify-content: center;
+      }
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .user__menu{
+        display: none;
+    }
+}
+
+/* #################### RIGHT-SIDE ############################ */
+
+.right_wrapper{
+    width: 80%;
+}
+/* Tablet*/
+@media all and (min-width: 451px) and (max-width: 1024px) {
+    .right_wrapper{ width: 90%;}
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .right_wrapper{
+        width: 100%;
+    }
+}
+
+/* ######## Header Top Navigation Bar ######## */
+.header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.header_container{
+    width:100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .header{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .header_container {
+        display:none;
+    }
+}
+/* ######## Header title ######## */
+.header__title{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    margin: auto 0;
+}
+.header__title h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* ######## Header buttons : search btn, bell btn, app btn ######## */
+.header__ls_btns{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;  
+    margin : auto 0;
+}
+.header__ls_btns label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+.header__ls_btns img {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 5px;
+}
+.bar_list{
+    display:flex;
+    list-style-type: none;
+    gap: 5px;
+}
+.btn_search, .btn_bell, .btn_apps {
+    display:inline-flex;
+    background-color: transparent;
+    border: none;
+    gap: 5px;
+}
+
+/* ######## Header create new button ######## */
+.header__btn {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+}
+.btn_bar {
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 1px solid #000000;
+    background: #AE7AFF;
+    padding: 10px 22px;
+}
+.btn_bar label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+.btn_bar img {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 5px;
+}
+/* ######## HR line ######### */
+.header__line{
+    border: 1px solid #000000;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .header__line {
+        display:none;
+    }
+}
+/* ######## Status bar on mobile ######## */
+.header__status_bar_mb{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.status_bar_right{
+    display: flex;
+    gap:5px;
+}
+/* ########  Header on mobile ######## */
+.header__mobile{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header mobile title */
+.header__mobile_title h4{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+}
+/* Header mobile search btn */
+.btn-search-mb {
+    position: relative;
+    width:32px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 1px;
+}
+.btn-search-mb img{
+    padding: 8px;
+    width: 16px;
+    height: 16px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+/* Desktop +Tablet */
+@media all and (min-width: 451px){
+    .header__mobile,
+    .header__status_bar_mb{
+        display:none;
+    }
+}
+
+/* ######## Content: sorting bar + table + page counter ######## */
+.content {
+    width:100%;
+}
+/* ######## Sorting bar ######## */
+.sorting{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 24px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .sorting {
+        margin: 2px 25px 20px 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* ######## Sorting tabs ######## */
+.sorting__tab{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    background-color: transparent;
+}
+.tablinks{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+    padding: 8px;
+    flex-grow: 1;
+    background-color: inherit;
+}
+.tablinks:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .sorting__tab {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+/* ######## Sorting buttons : sort btn, bulk actions btn ######## */
+.sorting__btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0;
+    gap: 5px;
+}
+.sorting_select, .sorting__actions {
+    display: inline-flex;
+    position: relative;
+}
+.btn_sort, .btn_actions {
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    background-color: transparent;
+}
+.sort-label, .actions_label{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .sorting__btns {
+        display:none;
+    }
+}
+
+/* ######## Table ######## */
+.table_container {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    background-color: #FFFF;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    width: 100%;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .table_container {
+        margin: 25px;   
+    }
+}
+
+/* ######## Table head ######## */
+.table__btn_title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: transparent;
+    border:none;
+    padding: 8px 0px;
+}
+.table__btn_title img{
+    margin-left: 5px;
+}
+th{
+    text-align: left;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    thead {
+        display: none;   
+    }
+}
+
+/* ######## Table body ######## */
+tbody{
+    font-size: 14px;
+    line-height: 21px;
+}
+tr{
+    border-bottom: 1px solid #000000;
+}
+input[type="checkbox"] {
+    border: 1px solid #000000;
+    border-radius: 1px;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+td:nth-child(2) {
+    display:flex;
+}
+td:last-child span img {
+    margin-right: 5px;
+}
+
+td:nth-child(2) {
+    font-weight: 700;
+}
+td:not(:nth-child(2)){
+    font-weight: 400;
+}
+th:first-child {
+    width: 50px;
+}
+/* Email information on mobile doesn't display on other devices but mobile*/
+.email-mb{
+    display:none;
+}
+/* Profile picture on the second column in the table */
+.profile-foto img{
+    width: 28px;
+    height: 28px;
+    margin: 20px 10px 20px 15px;
+}
+/* Email information on mobile */
+.profile-info {
+    margin: auto 0;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    td:nth-child(1),
+    td:nth-child(3),
+    td:nth-child(4) {
+        display: none;
+    }
+    .email-mb{
+        display:inline;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* ######## Page Counter ######## */
+.page_counter {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.page_counter p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+/* ######## Page counter buttons : previous btn, next btn ########*/
+.btn_prev, .btn_next{
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+.btn_prev img {
+    margin-right: 5px;
+}
+.btn_next img {
+    margin-left: 5px;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .page_counter {
+        display: none;
+    }
+}
+
+/* ######## Footer ######## */
+.footer {
+    bottom:0;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1.5fr 10fr 10fr;
+    
+}
+.footer__left{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer__right{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+    .footer {
+        display: none;
+    }
+}
+/* ######## Footer btn language ######## */
+.btn_lang{
+    display: inline-flex;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: transparent;
+    border:none;
+}
+.btn_lang img {
+    margin-right: 5px;
+}
+/* ######## Footer links ######## */
+.footer_links a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    color:#000;
+    margin-left: 30px;
+}
+/* ######## Footer btn light-mode, night-mode ######## */
+.btn_light_mode {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px 0px 0px 2px;
+    background-color: #AE7AFF;
+    border: 1px solid #000000;
+    border-width: 1px 0px 1px 1px; 
+    margin-right: -1px;
+}
+.btn_night_mode{
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 2px 2px 0px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-width: 1px 1px 1px 0px; 
+    margin-left: -1px;
+}
+.btn_light_mode img{
+    width: 16px;
+    height: 16px;
+}
+.btn_night_mode img{
+    width: 16px;
+    height: 16px;
+}
