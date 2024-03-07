@@ -6,13 +6,6 @@ This project is a responsive contact list page built with HTML and CSS. It inclu
 
 You can explore the live demo of the website <a href="https://dianamurariu.github.io/Contacts_List/" target="_blank">here</a>.
 
-## Project Structure
-
-The project is organized as follows:
-
-- **index.html**: The main HTML file containing the structure of the contact list page.
-- **styles.css**: The CSS file with styles for different screen sizes and elements.
-
 ## Features
 
 1. **Responsive Design**: The contact list page is designed to be responsive on web, tablet, and mobile devices.
