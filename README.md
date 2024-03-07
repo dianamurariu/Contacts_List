@@ -26,7 +26,7 @@ The project is organized as follows:
 
 ## Live Demo
 
-You can explore the live demo of the website <a href="https://dianamurariu.github.io/CV_website/" target="_blank">here</a>.
+You can explore the live demo of the website <a href="https://dianamurariu.github.io/Contacts_List/" target="_blank">here</a>.
 
 ## Responsive Design
 
