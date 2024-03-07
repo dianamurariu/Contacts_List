@@ -2,6 +2,10 @@
 
 This project is a responsive contact list page built with HTML and CSS. It includes three different designs for web, tablet, and mobile devices. The page consists of a side navigation, header navigation, table displaying contacts, page counter and footer.
 
+## Live Demo
+
+You can explore the live demo of the website <a href="https://dianamurariu.github.io/Contacts_List/" target="_blank">here</a>.
+
 ## Project Structure
 
 The project is organized as follows:
@@ -23,10 +27,6 @@ The project is organized as follows:
 4. **Page Counter**: Shows the current page number and the total number of pages in the contact list.
 
 5. **Footer**: Includes essential information, links, or copyright details.
-
-## Live Demo
-
-You can explore the live demo of the website <a href="https://dianamurariu.github.io/Contacts_List/" target="_blank">here</a>.
 
 ## Responsive Design
 
