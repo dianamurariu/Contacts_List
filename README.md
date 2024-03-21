@@ -4,7 +4,7 @@ This project is a responsive contact list page built with HTML and CSS. It inclu
 
 ## Live Demo
 
-You can explore the live demo of the website <a href="https://dianamurariu.github.io/Contacts_List/" target="_blank">here</a>.
+You can explore the live demo of the website [here](https://contacts-list-ten.vercel.app/).
 
 ## Features
 
