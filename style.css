@@ -683,10 +683,15 @@ body {
   background-color: transparent;
 }
 .btn_sort:hover,
-.btn_actions:hover,
-.btn_sort:active,
-.btn_actions:active {
-  background: #797878;
+.btn_actions:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.btn_sort:hover img {
+  content: url('image/btn-sort-dark.svg');
+}
+.btn_actions:hover img {
+  content: url('image/btn-action-dark.svg');
 }
 .sort-label,
 .actions_label {
@@ -974,6 +979,10 @@ th:first-child {
 .dark_theme .sort-label,
 .dark_theme .actions_label {
   color: #ffffff;
+}
+.dark_theme .btn_sort:hover,
+.dark_theme .btn_actions:hover {
+  background-color: #797878;
 }
 
 .dark_theme .sort-icon img {
