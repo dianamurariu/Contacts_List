@@ -1076,3 +1076,24 @@ th:first-child {
 .dark_theme .nav__menu__ls_mb li:nth-child(5) img {
   content: url('image/menu5-mb-dark.svg');
 }
+
+/* Image replacements on hover for mobile */
+.dark_theme .nav__menu__ls_mb li:nth-child(1) img:hover {
+  content: url('image/menu1-mb-hover.svg');
+}
+
+.dark_theme .nav__menu__ls_mb li:nth-child(2) img:hover {
+  content: url('image/menu2-mb-hover.svg');
+}
+
+.dark_theme .nav__menu__ls_mb li:nth-child(3) img:hover {
+  content: url('image/menu3-mb-hover.svg');
+}
+
+.dark_theme .nav__menu__ls_mb li:nth-child(4) img:hover {
+  content: url('image/menu4-mb-hover.svg');
+}
+
+.dark_theme .nav__menu__ls_mb li:nth-child(5) img:hover {
+  content: url('image/menu5-mb-hover.svg');
+}
