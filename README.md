@@ -1,6 +1,6 @@
-# Contact List Page
+# Contact List Page with Light/Dark Mode Theme
 
-This project is a responsive contact list page built with HTML and CSS. It includes three different designs for web, tablet, and mobile devices. The page consists of a side navigation, header navigation, table displaying contacts, page counter and footer.
+This project is a responsive contact list page built with HTML and CSS. It includes three different designs for web, tablet, and mobile devices. The page consists of a side navigation, header navigation, table displaying contacts, page counter and footer. It also integrates a light/dark mode theme for all device types.
 
 ## Live Demo
 
@@ -20,6 +20,8 @@ You can explore the live demo of the website <a href="https://dianamurariu.githu
 4. **Page Counter**: Shows the current page number and the total number of pages in the contact list.
 
 5. **Footer**: Includes essential information, links, or copyright details.
+
+6. **Light/Dark Mode Theme**: Integrated light and dark mode themes for enhanced user experience.
 
 ## Responsive Design
 
