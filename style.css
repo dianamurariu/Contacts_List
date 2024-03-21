@@ -114,7 +114,7 @@ body {
   padding: 1px 5px;
   margin-left: 71px;
 }
-/* Image replacements on hover */
+/* Image replacements on hover for desktop */
 .nav__menu__ls_desktop li:nth-child(1) a:hover img {
   content: url('image/menu1-mb-hover.svg');
 }
@@ -158,7 +158,7 @@ body {
   width: 16px;
   height: 16px;
 }
-/* Image replacements on hover */
+/* Image replacements on hover for tablet */
 .nav__menu__ls_tb li:nth-child(1) a:hover img {
   content: url('image/menu1-mb-hover.svg');
 }
@@ -203,24 +203,24 @@ body {
   padding-inline-start: 0;
   margin: 25px;
 }
-/* Image replacements on hover */
-.nav__menu__ls_mb li:nth-child(1) a:hover img {
+/* Image replacements on hover for mobile */
+.nav__menu__ls_mb li:nth-child(1) img:hover {
   content: url('image/menu1-mb-hover.svg');
 }
 
-.nav__menu__ls_mb li:nth-child(2) a:hover img {
+.nav__menu__ls_mb li:nth-child(2) img:hover {
   content: url('image/menu2-mb-hover.svg');
 }
 
-.nav__menu__ls_mb li:nth-child(3) a:hover img {
+.nav__menu__ls_mb li:nth-child(3) img:hover {
   content: url('image/menu3-mb-hover.svg');
 }
 
-.nav__menu__ls_mb li:nth-child(4) a:hover img {
+.nav__menu__ls_mb li:nth-child(4) img:hover {
   content: url('image/menu4-mb-hover.svg');
 }
 
-.nav__menu__ls_mb li:nth-child(5) a:hover img {
+.nav__menu__ls_mb li:nth-child(5) img:hover {
   content: url('image/menu5-mb-hover.svg');
 }
 .menu__line_bottom_mb {
